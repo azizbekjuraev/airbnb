@@ -3,8 +3,6 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Card from "./components/Card";
 function App() {
-  const firstName = `Azizbek`;
-  const lastName = `Juraev`;
   return (
     <>
       <Navbar />
@@ -13,7 +11,6 @@ function App() {
         <Card />
         <Card />
       </div>
-      <h1>It is currently {new Date().getHours()} o'clock!</h1>
     </>
   );
 }
